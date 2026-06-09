@@ -3,7 +3,7 @@
 In this step, you will practice iterative process improvement by:
 
 1. Creating a GitHub issue using an issue template to document needed improvements to personas/roles in project management processes
-2. Using GitHub Copilot's coding agent to automatically create a pull request that implements these improvements
+2. Using GitHub Copilot's Copilot Cloud Agent to automatically create a pull request that implements these improvements
 
 This demonstrates a complete improvement workflow: identify gaps (issue) → implement solutions (pull request) → maintain traceability (linked in Copilot Space).
 
@@ -83,7 +83,7 @@ _Use the following prompt in the current Copilot Space conversation:_
 In the same Copilot Space conversation do the following:
 
 1. In this activity we will attach the issue you created in the previous activity
-2. This will assign the issue to the coding agent to create a pull request with an update to our personas/roles document in the `docs/` folder
+2. This will assign the issue to the Copilot Cloud Agent to create a pull request with an update to our personas/roles document in the `docs/` folder
 3. Copy and paste the URL for the issue that we created in the previous activity.
 
 > [!NOTE]
@@ -105,7 +105,7 @@ In the same Copilot Space conversation do the following:
    > ![Static Badge](https://img.shields.io/badge/-Prompt-text?style=social&logo=github%20copilot)
    >
    > ```prompt
-   > - Using the github-coding-agent tool create a pull request that implements process improvements
+   > - Create a pull request that implements process improvements
    >   based on the analysis we did earlier.
    > - The improvements should address gaps or inefficiencies identified in the project management documentation.
    > - The pull request should include updates to existing docs or new templates/checklists as needed.
@@ -114,13 +114,13 @@ In the same Copilot Space conversation do the following:
    > - Add {{login}} as a reviewer for this pull request
    > ```
 
-4. **Allow the coding agent**: When prompted, select **Allow** to let the coding agent work on your repository
+4. **Allow the Copilot Cloud Agent**: When prompted, select **Allow** to let the Copilot Cloud Agent work on your repository
 
-   <img width="50%" alt="copilot-coding-agent-allow" src="../images/copilot-coding-agent-allow.png" />
+   <img width="100%" alt="copilot-cloud-agent-allow" src="../images/copilot-cloud-agent-allow.png" />
 
-5. **Monitor progress**: You should receive a notification that the Copilot coding agent is working on your pull request.
+5. **Monitor progress**: You should receive a notification that the Copilot Cloud Agent is working on your pull request.
 
-   There are two ways you can check the status of the coding agent working on your pull request
+   There are two ways you can check the status of the Copilot Cloud Agent working on your pull request
 
    #### Option 1: Check Pull Requests in your repository
 
@@ -130,7 +130,7 @@ In the same Copilot Space conversation do the following:
 
    #### Option 2: Check Agent Sessions in your Copilot Space on the left side under Agent sessions
 
-   You can track the progress of the Copilot coding agent and view details on the left side under **Agent sessions**. Click on the session to see details about the tasks being performed by the agent.
+   You can track the progress of the Copilot Cloud Agent and view details on the left side under **Agent sessions**. Click on the session to see details about the tasks being performed by the agent.
 
       <img width="40%" alt="agent-session" src="../images/agent-sessions-2.png" />
 
@@ -149,7 +149,7 @@ In the same Copilot Space conversation do the following:
    <img width="40%" alt="check-open-prs" src="../images/check-open-prs-3.png" />
 
 > [!NOTE]
-> The coding agent typically takes 5-15 minutes to complete the work. If you want to track the work that the Copilot coding agent is doing from within the pull request, click **View session** <img width="10%" alt="view-session" src="../images/view-session.png" /> to watch the progress if desired.
+> The Copilot Cloud Agent typically takes 5-15 minutes to complete the work. If you want to track the work that the Copilot Cloud Agent is doing from within the pull request, click **View session** <img width="10%" alt="view-session" src="../images/view-session.png" /> to watch the progress if desired.
 
 7. **Review and merge**: Once the pull request is ready:
 

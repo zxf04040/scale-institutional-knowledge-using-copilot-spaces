@@ -7,7 +7,7 @@ In this step you will:
 - Use that summary to create/attach the existing issue about the README
 - Create a pull request adding a README that links all process docs and includes the brief overview
 
-### 📖 Theory: Attaching issues and assigning to the GitHub Copilot coding agent
+### 📖 Theory: Attaching issues and assigning to the GitHub Copilot Cloud Agent
 
 While reading, note:
 
@@ -55,9 +55,9 @@ Proceed to the activities and run the provided prompts in your Copilot Space.
 
    </details>
 
-### ⌨️ Activity: Attach an issue and create a pull request for the Copilot coding agent
+### ⌨️ Activity: Attach an issue and create a pull request for the Copilot Cloud Agent
 
-In this activity, you will connect the issue you created in Step 1 to your Copilot Space conversation and use the coding agent to automatically create a pull request.
+In this activity, you will connect the issue you created in Step 1 to your Copilot Space conversation and use the Copilot Cloud Agent to automatically create a pull request.
 
 1. **Find your issue number**: Go to [https://github.com/{{full_repo_name}}/issues](https://github.com/{{full_repo_name}}/issues) and note the issue number from Step 1 (it should be about creating a README for project management docs)
 
@@ -81,7 +81,7 @@ In this activity, you will connect the issue you created in Step 1 to your Copil
    > ![Static Badge](https://img.shields.io/badge/-Prompt-text?style=social&logo=github%20copilot)
    >
    > ```prompt
-   > - Using the github-coding-agent tool create a pull request based on the attached issue.
+   > - Create a pull request based on the attached issue.
    > - The README should also contain a brief overview of the project management processes
    >   used by OctoAcme based on the summary we just created.
    > - The README should be in the `docs/` folder
@@ -89,13 +89,13 @@ In this activity, you will connect the issue you created in Step 1 to your Copil
    > - Add {{login}} as a reviewer for the pull request
    > ```
 
-5. **Allow the coding agent**: When prompted, select **Allow** to let the coding agent work on your repository
+5. **Allow the Copilot Cloud Agent**: When prompted, select **Allow** to let the Copilot Cloud Agent work on your repository
 
-   <img width="50%" alt="copilot-coding-agent-allow" src="../images/copilot-coding-agent-allow.png" />
+   <img width="100%" alt="copilot-cloud-agent-allow" src="../images/copilot-cloud-agent-allow.png" />
 
-6. **Monitor progress**: You should receive a notification that the Copilot coding agent is working on your pull request.
+6. **Monitor progress**: You should receive a notification that the Copilot Cloud Agent is working on your pull request.
 
-   There are two ways you can check the status of the coding agent working on your pull request
+   There are two ways you can check the status of the Copilot Cloud Agent working on your pull request
 
    #### Option 1: Check Pull Requests in your repository
 
@@ -105,7 +105,7 @@ In this activity, you will connect the issue you created in Step 1 to your Copil
 
    #### Option 2: Check Agent Sessions in your Copilot Space on the left side under Agent sessions
 
-   You can track the progress of the Copilot coding agent and view details on the left side under **Agent sessions**. Click on the session to see details about the tasks being performed by the agent.
+   You can track the progress of the Copilot Cloud Agent and view details on the left side under **Agent sessions**. Click on the session to see details about the tasks being performed by the agent.
 
       <img width="40%" alt="agent-session-1" src="../images/agent-sessions-1.png" />
 
@@ -123,10 +123,10 @@ In this activity, you will connect the issue you created in Step 1 to your Copil
 
    <img width="40%" alt="check-open-prs" src="../images/check-open-prs-2.png" />
 
-   Click the link to the pull request in the Copilot Space to view the PR details and monitor the coding agent's progress.
+   Click the link to the pull request in the Copilot Space to view the PR details and monitor the Copilot Cloud Agent's progress.
 
 > [!NOTE]
-> The coding agent typically takes 5-15 minutes to complete the work. If you want to track the work that the Copilot coding agent is doing from within the pull request, click **View session** <img width="10%" alt="view-session" src="../images/view-session.png" /> to watch the progress if desired.
+> The Copilot Cloud Agent typically takes 5-15 minutes to complete the work. If you want to track the work that the Copilot Cloud Agent is doing from within the pull request, click **View session** <img width="10%" alt="view-session" src="../images/view-session.png" /> to watch the progress if desired.
 
 8. **Review and merge**: Once the pull request is ready:
 
@@ -146,7 +146,7 @@ In this activity, you will connect the issue you created in Step 1 to your Copil
 
 - **Can't find your issue?** Check the [Issues tab](https://github.com/{{full_repo_name}}/issues) in your repository for the issue you created in Step 1
 - **Issue not attaching?** Make sure you're using the exact format `@{{full_repo_name}}/issues/#` where `#` is your issue number
-- **Coding agent not working?** Ensure you have the necessary permissions to create pull requests in your repository
-- **Pull request creation failed?** The issue must be properly attached before the coding agent can work on it
+- **Copilot Cloud Agent not working?** Ensure you have the necessary permissions to create pull requests in your repository
+- **Pull request creation failed?** The issue must be properly attached before the Copilot Cloud Agent can work on it
 
 </details>
