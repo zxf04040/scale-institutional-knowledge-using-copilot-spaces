@@ -1,3 +1,8 @@
+# Repository is extremely polished to be enterprise DevOps level.
+This is forked from Microsoft training material and I used Copilot workspace in VSCode to polish this repository.
+So far Future-action.md has a list for possble change to be one great example to beginner DevOps trainee...
+I would thank Microsoft AI Skill Fest 2026, AI-augmented CI/CD course.
+
 # Scale institutional knowledge using Copilot Spaces
 
 [![Exercise workflow status](https://github.com/zxf04040/scale-institutional-knowledge-using-copilot-spaces/actions/workflows/0-start-exercise.yml/badge.svg)](https://github.com/zxf04040/scale-institutional-knowledge-using-copilot-spaces/actions/workflows/0-start-exercise.yml) [![Issue template sync workflow status](https://github.com/zxf04040/scale-institutional-knowledge-using-copilot-spaces/actions/workflows/update-issue-template.yml/badge.svg)](https://github.com/zxf04040/scale-institutional-knowledge-using-copilot-spaces/actions/workflows/update-issue-template.yml)
