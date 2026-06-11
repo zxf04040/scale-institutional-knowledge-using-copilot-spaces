@@ -63,6 +63,60 @@ When you add this repository to a Copilot Space, attach these source folders:
 
 This ensures Copilot can reference the process guidance and issue template content when answering questions or drafting updates.
 
+## Contribution Acceptance Criteria (Microsoft DevOps Level)
+
+All contributions must meet these enterprise-grade standards before acceptance:
+
+### Documentation Quality
+- [ ] Content is clear, concise, and free of typos and grammatical errors
+- [ ] New docs follow the established template and naming convention (`octoacme-<topic>.md`)
+- [ ] All sections have descriptive headers and meaningful examples
+- [ ] Cross-references to related docs are included where applicable
+- [ ] Markdown formatting is consistent with existing documentation
+
+### Process Alignment
+- [ ] Content aligns with OctoAcme project lifecycle (initiation → planning → execution → release → retrospective)
+- [ ] Process steps are testable and actionable by team members of all levels
+- [ ] Checklists and templates are complete and avoid ambiguity
+- [ ] Dependencies and handoff points between roles are clearly documented
+
+### Automation & Integration
+- [ ] Issue template is updated if a new process doc is added
+- [ ] `docs/index.md` is updated with links and summaries for new content
+- [ ] Workflow automation triggers correctly (YAML syntax validated)
+- [ ] Scripts (if added) follow Python best practices and include error handling
+
+### Code & Configuration Standards
+- [ ] All YAML/JSON files validate against schema and are free of errors
+- [ ] Python scripts include docstrings and handle exceptions gracefully
+- [ ] Shell scripts use proper quoting and error checking
+- [ ] Secrets and sensitive contact info are never hardcoded (use placeholders or environment variables)
+
+### Testing & Validation
+- [ ] Content has been tested with Copilot Spaces (if applicable)
+- [ ] Links in documentation are verified and functional
+- [ ] Examples provided in docs are accurate and reproducible
+- [ ] The PR template has been completed with all sections filled
+
+### Security & Compliance
+- [ ] No credentials, API keys, or internal URLs are exposed
+- [ ] SECURITY.md contact is updated with real information (or placeholder clearly marked)
+- [ ] CODE_OF_CONDUCT is referenced and enforced
+- [ ] Contributor has signed off on compliance with organizational policies
+
+### Governance & Review
+- [ ] PR is linked to a relevant issue (use "Refs #" syntax)
+- [ ] Commit messages follow conventional commit style (`chore:`, `feat:`, `fix:`, etc.)
+- [ ] PR description explains the *why* behind changes, not just the *what*
+- [ ] At least one maintainer review and approval is required before merge
+- [ ] CI/CD checks (workflow validation, linting) pass before merge
+
+### Performance & Operations
+- [ ] Automation workflows complete in < 2 minutes (no excessive delays)
+- [ ] Issue template and process docs scale to support 100+ team members
+- [ ] Documentation is indexed and searchable via Copilot Spaces
+- [ ] Fallback mechanisms (e.g., branch protection handling) work correctly
+
 ## Repository structure
 
 - `README.md`: Practical guide to what is included in this repository.
