@@ -14,7 +14,6 @@ body:
     description: Select the program management process document you want to add content
       to. If this is a new process doc, choose '<new document>'.
     options:
-    - index.md
     - octoacme-execution-and-tracking.md
     - octoacme-project-initiation.md
     - octoacme-project-management-overview.md

@@ -1,70 +1,77 @@
 # Scale institutional knowledge using Copilot Spaces
 
-Learn how Copilot Spaces can scale institutional knowledge and streamline organizational processes.
+[![Exercise workflow status](https://github.com/zxf04040/scale-institutional-knowledge-using-copilot-spaces/actions/workflows/0-start-exercise.yml/badge.svg)](https://github.com/zxf04040/scale-institutional-knowledge-using-copilot-spaces/actions/workflows/0-start-exercise.yml) [![Issue template sync workflow status](https://github.com/zxf04040/scale-institutional-knowledge-using-copilot-spaces/actions/workflows/update-issue-template.yml/badge.svg)](https://github.com/zxf04040/scale-institutional-knowledge-using-copilot-spaces/actions/workflows/update-issue-template.yml)
 
-## What are Copilot Spaces?
+This repository is a Copilot Spaces exercise and process documentation hub for OctoAcme project management.
 
-- Copilot Spaces let you organize the context that Copilot uses to answer your questions.
-- Spaces can include repositories, code, pull requests, issues, free-text content like transcripts or notes, images, and file uploads.
-- You can ask Copilot questions grounded in that context, or share the space with your team to support collaboration and knowledge sharing.
+## What’s included in this repository
 
-### Why use Copilot Spaces?
+- `docs/`: Project management process documents for OctoAcme
+- `docs/index.md`: Navigation guide for the process docs
+- `.github/steps/`: Step content for the guided Copilot Spaces exercise
+- `.github/workflows/`: GitHub Actions workflows that power the exercise flow
+- `.github/ISSUE_TEMPLATE/`: Issue template for updating or adding process docs
+- `CODE_OF_CONDUCT.md`: Contributor expectations and community standards
+- `SECURITY.md`: Security reporting and responsible disclosure guidance
+- `.devcontainer/`: VS Code dev container settings for fast onboarding and Copilot Chat support
+- `CONTRIBUTING.md`: Instructions for updating docs and contributing new process content
 
-Whether you’re working solo or collaborating across a team, Spaces help you make Copilot more useful.
+## Which docs to read first
 
-#### With Copilot Spaces you can
+1. `docs/index.md` — start here for an overview and links to all process documents.
+2. `docs/octoacme-project-management-overview.md` — high-level project lifecycle, roles, and artifacts.
+3. `docs/octoacme-project-initiation.md` — how to start a project and align stakeholders.
+4. `docs/octoacme-project-planning.md` — planning, backlog, estimates, and DoD.
+5. `docs/octoacme-execution-and-tracking.md` — execution methods and progress tracking.
+6. `docs/octoacme-risks-and-communication.md` — risk management and communication cadence.
+7. `docs/octoacme-release-and-deployment.md` — release planning and deployment readiness.
+8. `docs/octoacme-retrospective-and-continuous-improvement.md` — lessons learned and continuous improvement.
+9. `docs/octoacme-roles-and-personas.md` — role definitions and responsibilities.
 
-- Get more relevant, specific answers from Copilot.
-- Stay in flow by collecting what you need for a task in one place.
-- Reduce repeated questions by sharing knowledge with your team.
-- Support onboarding and reuse with self-service context that lives beyond chat history.
-- Your spaces stay in sync as your project evolves.
-  - GitHub files and other GitHub-based sources added to a space are automatically updated as they change, making Copilot an evergreen expert in your project.
+## Overview of exercise steps
 
-## Welcome
+The exercise is organized into a step-by-step experience using GitHub workflows:
 
-- **Who is this for**: Project managers, team leads, and developers looking to streamline knowledge sharing
-- **What you'll learn**: How to leverage GitHub Copilot Spaces to capture, organize, and improve project management processes
-- **What you'll build**: A comprehensive knowledge management system using Copilot Spaces for team collaboration
-- **Prerequisites**:
+- `.github/steps/1-step.md` — create and prime the Copilot Space
+- `.github/steps/2-step.md` — refresh the exercise and continue with content review
+- `.github/steps/3-step.md` — finalize the exercise and reflect on improvements
+- `.github/steps/x-review.md` — review guidance for the completed exercise
 
-  - Basic familiarity with GitHub repositories
-  - Access to GitHub Copilot Spaces
-  - Beginner-level project management concepts
+The workflows in `.github/workflows/` support this progression and help the repository behave like an interactive exercise.
 
-- **How long**: This exercise takes less than 30 minutes to complete.
+## How to use the issue template
 
-In this exercise, you will use Copilot Spaces:
+Use the template `Add Content to Project Management Process Docs` to request documentation updates:
 
-1. Add a repository as a source to your Copilot Space
-1. Add instructions to your Copilot Space
-1. Create issues in the repository using Copilot Spaces
-1. Explore and summarize project management process documentation
-1. Update repository documentation based on insights and gaps discovered
+- Open a new issue in GitHub
+- Select the **Add Content to Project Management Process Docs** template
+- Choose the relevant doc from the dropdown or select `<new document>` for a new process file
+- Describe the update, why it is needed, and optionally paste suggested content
+- Use the acceptance criteria checkboxes to confirm alignment and quality
 
-### How to start this exercise
+The template file is located at [.github/ISSUE_TEMPLATE/add-update-content-to-process-docs.yml](.github/ISSUE_TEMPLATE/add-update-content-to-process-docs.yml).
 
-Simply copy the exercise to your account, then give your favorite Octocat (Mona) **about 20 seconds** to prepare the first lesson, then **refresh the page**.
+## Copilot Spaces context setup
 
-[![](https://img.shields.io/badge/Copy%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/new?template_owner=skills&template_name=scale-institutional-knowledge-using-copilot-spaces&owner=%40me&name=skills-scale-institutional-knowledge-using-copilot-spaces&description=Exercise:+Scale+Institutional+Knowledge+Using+Copilot+Spaces&visibility=public)
+When you add this repository to a Copilot Space, attach the following source folders:
 
-<details>
-<summary>Having trouble? 🤷</summary>
+- `docs/`
+- `.github/ISSUE_TEMPLATE/`
 
-When copying the exercise, we recommend the following settings:
+This ensures Copilot can index the process documentation and issue template content.
 
-- For owner, choose your personal account or an organization to host the repository.
+## Devcontainer support
 
-- We recommend creating a public repository, since private repositories will use Actions minutes.
+This repo includes `.devcontainer/devcontainer.json` for VS Code. It references support folders for Copilot Chat files:
 
-If the exercise isn't ready in 20 seconds, please check the [Actions](../../actions) tab.
+- `.github/prompts/`
+- `.github/instructions/`
+- `.github/chatmodes/`
 
-- Check to see if a job is running. Sometimes it simply takes a bit longer.
-
-- If the page shows a failed job, please submit an issue. Nice, you found a bug! 🐛
-
-</details>
+Those folders are included so the container configuration remains valid.
 
 ---
 
-&copy; 2026 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+## License
+
+This repository is licensed under the MIT License.
